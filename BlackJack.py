@@ -184,7 +184,7 @@ while True:
             push(player_hand,dealer_hand)        
     
     
-    if player_chips.total==0:
+    if !player_chips.total:
         print("\nSorry You are out of Chips\n____Thanks for playing____\n")
         break
     else:
