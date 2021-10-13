@@ -1,6 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-#TokirManva
+#hideki_riyuga
 import numpy as np
 def Token():
     a = int(input("Enter Your money to play"))
