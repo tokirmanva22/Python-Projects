@@ -20,8 +20,9 @@ Then you need to install the PyQt5 module by running the following command in yo
 ```bash
 pip install PyQt5
 ```
+###you have to run this command
 
-## Screenshot, this is the screenshot of the editor:
+## sample Screenshot, this is the screenshot of the editor:
 ![image](screenshot/Sample.jpg)
 
 #Credit
