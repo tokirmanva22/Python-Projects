@@ -65,10 +65,10 @@ class Chips:
         self.bet = 0
         
     def win_bet(self):
-        self.total+=self.bet
+        self.total += self.bet
     
     def lose_bet(self):
-        self.total-=self.bet
+        self.total -= self.bet
 
 
 def take_bet(chips):
@@ -147,7 +147,7 @@ while True:
     dealer_hand = Hand()
     dealer_hand.add_card(deck.deal())
     dealer_hand.add_card(deck.deal())
-    if fresh==0: 
+    if not fresh: 
         player_chips = Chips()     
     print(f'You have {player_chips.total} Chips')
     take_bet(player_chips)
@@ -184,16 +184,16 @@ while True:
             push(player_hand,dealer_hand)        
     
     
-    if !player_chips.total:
+    if not player_chips.total:
         print("\nSorry You are out of Chips\n____Thanks for playing____\n")
         break
     else:
         print("\nPlayer's winnings stand at",player_chips.total)
         new_game = input("Would you like to play another hand? Enter 'y' or 'n' ")
-        if new_game[0].lower()=='y':
+        if new_game[0].lower() == 'y':
             playing=True
             fresh=1
             continue
         else:
             print("\n____Thanks for playing____\n")
-            break
+            exit()
