@@ -40,7 +40,7 @@ if __name__ == "__main__":
     deal = []
     cust = []
     x = 'y'
-    while token > 0 and x=="y" :
+    while token > 0 and x.lower() == "y" :
         bet = Bet(token)
         ds = int(input("How many Dice you want to play with :\n"))
         for i in range(ds):
