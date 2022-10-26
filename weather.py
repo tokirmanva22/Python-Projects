@@ -17,5 +17,5 @@ def weather(city):
     print(weather+"°C") 
 
 city=input("Enter the Name of Any City >>  ")
-city=city+" weather"
+city=city + " weather is"
 weather(city)
