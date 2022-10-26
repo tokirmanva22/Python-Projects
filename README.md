@@ -1,3 +1,3 @@
 # Basic Python Projects
 
-## Projects are for Python beginers
+### Projects are for Python beginers
